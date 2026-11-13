@@ -1,0 +1,65 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Streamlit
+.streamlit/secrets.toml
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Data (large, not for repo)
+data/
+*.h5
+*.hdf5
+
+# Model weights (large)
+models/*.pt
+models/*.pth
+models/*.bin
+models/*.safetensors
+
+# Outputs (generated)
+outputs/*.png
+outputs/*.json
+outputs/*.md
+outputs/*.txt
+
+# Test images (copied from training for demo)
+test images/
+Test Images/
+
+# Kaggle / credentials
+kaggle.json
+.kaggle/
+
+# Logs
+*.log
+logs/
+
+# Temporary files
+*.tmp
+*.temp
+_scratch/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Environment / secrets
+.env
+.env.local
+*.env

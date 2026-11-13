@@ -1,0 +1,13 @@
+# Streamlit theme: dark clinical palette
+# Palette (user-specified):
+#   background #0E1621 | panels #1A2432 | accent #2DD4BF (teal)
+#   text #E6EDF3 | warning/disclaimer amber #F59E0B (custom CSS banners)
+# NOTE: theme changes require restarting the app:
+#   streamlit run app.py
+
+[theme]
+base = "dark"
+primaryColor = "#2DD4BF"             # teal accent (buttons, links)
+backgroundColor = "#0E1621"          # deep navy / charcoal
+secondaryBackgroundColor = "#1A2432" # panels, sidebar, widgets, cards
+textColor = "#E6EDF3"                # soft white

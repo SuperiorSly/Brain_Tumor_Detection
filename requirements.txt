@@ -1,0 +1,18 @@
+# Tested with Python 3.14 on Windows + NVIDIA GTX 1660.
+#
+# The --extra-index-url line is required: plain `pip install torch` from PyPI
+# gives a CPU-only wheel on Windows. The PyTorch CUDA index provides the
+# GPU build. If you have a different GPU/driver, see:
+# https://pytorch.org/get-started/locally/
+--extra-index-url https://download.pytorch.org/whl/cu126
+
+torch==2.14.1+cu126
+torchvision==0.29.1+cu126
+
+opencv-python==5.0.0.93
+numpy>=2.0
+matplotlib==3.11.2
+scikit-learn==1.9.1
+streamlit==1.67.0
+kagglehub==1.0.3
+pillow>=10.0
